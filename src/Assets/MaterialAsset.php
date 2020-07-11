@@ -13,7 +13,7 @@ use Yiisoft\Assets\AssetBundle;
  *
  * @package Bootstrap4
  */
-class MaterialKitAsset extends AssetBundle
+class MaterialAsset extends AssetBundle
 {
     public ?string $basePath = '@assets';
 
