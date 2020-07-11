@@ -24,3 +24,16 @@ $ php composer.phar require schmasterz/yii-material-kit "master@dev"
 ### Usage
 
 ```php
+<?= Schmasterz\Yii\MaterialKit\Progress::widget()->percent('60')->label('test'); ?>
+```
+You can also use yii-material-kit in the CSS, Javascript layer of your application. 
+To achieve this, you need to include agGrid as a dependency of your Asset file
+```php
+public $depends = [
+    'Schmasterz\Yii\MaterialKit\Assets\MaterialAsset'
+];
+```
+or add it to your view file
+```php
+Schmasterz\Yii\MaterialKit\Assets\MaterialAsset::register($this);
+```
