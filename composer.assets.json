@@ -1,0 +1,5 @@
+{
+    "require": {
+         "npm-asset/material-kit": "^2.0.4"
+    }
+}
