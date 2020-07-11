@@ -1,0 +1,64 @@
+{
+  "name": "schmasterz/yii-material-kit",
+  "type": "library",
+  "description": "Material Kit extension for Yii framework",
+  "keywords": [
+    "yii",
+    "material kit"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/schmasterz/yii-material-kit/issues",
+    "source": "https://github.com/schmasterz/yii-material-kit"
+  },
+  "authors": [
+    {
+      "name": "Milen Hristov",
+      "email": "milen@schz.dev",
+      "homepage": "https://schz.dev/"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.4",
+    "foxy/foxy": "^1.1@dev",
+    "yiisoft/arrays": "^3.0@dev",
+    "yiisoft/assets": "^1.0@dev",
+    "yiisoft/html": "^3.0@dev",
+    "yiisoft/json": "^3.0@dev",
+    "yiisoft/aliases": "^1.0",
+    "yiisoft/widget": "^3.0@dev"
+  },
+  "require-dev": {
+    "infection/infection": "^0.16.3",
+    "phan/phan": "^3.0.2",
+    "phpunit/phpunit": "^9.2.0",
+    "yiisoft/composer-config-plugin": "^1.0@dev",
+    "yiisoft/di": "^3.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Schmasterz\\Yii\\MaterialKit\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Schmasterz\\Yii\\MaterialKit\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0.x-dev"
+    },
+    "config": {
+      "sort-packages": true
+    },
+    "config-plugin": {
+      "tests": "config/tests.php"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
