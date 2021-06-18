@@ -8,7 +8,7 @@ in Yii applications extremely easy.
 
 ### Requirements
 
-The minimum requirement by yii2-widget-ag-grid that your Web server supports PHP 7.4.
+The minimum requirement by yii-material-kit that your Web server supports PHP 7.4.
 
 ### Install via Composer
 
